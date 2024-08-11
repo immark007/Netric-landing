@@ -1,10 +1,11 @@
 #home{
     width: 100%;
-    height: 90vh;
+    height: 85vh;
     padding: 22px 10%;
     display: flex;
     align-items: center;
     position: relative;
+    border-bottom: 1px solid #ccc;
 }
 
 
@@ -60,6 +61,7 @@
 
 @media screen and (max-width: 1170px) {
     #home{
+        border: none;
         width: 100%;
         flex-direction: column;
         align-items: center;

@@ -22,6 +22,7 @@
 .construct_title p{
     color: var(--color-primary-2);
     padding: 15px 0;
+    font-size: 20px;
 }
 
 .construct_image{
@@ -34,4 +35,35 @@
 .construct_image img{
     width: 600px;
     border-radius: 20px;
+}
+
+@media screen and (max-width: 1170px){
+    #construct{
+        display: flex;
+        flex-direction: column;
+        border: none;
+        align-items: center;
+        padding: 0 20px;
+        height: 70vh;
+    }
+
+    .construct_image{
+        order: 1;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .construct_title{
+        order: 2;
+        margin-top: 10px;
+    }
+
+    .construct_title h2{
+        font-size: 20px;
+    }
+    .construct_image img{
+        width: 100%;
+    }
+
 }

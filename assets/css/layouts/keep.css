@@ -32,3 +32,36 @@
 .keep-image img{
     border-radius: 20px;
 }
+
+@media screen and (max-width: 1170px){
+    #keep{
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        height: 70vh;
+    }
+
+    .keep-title{
+        width: 100%;
+        text-align: center;
+    }
+
+    .keep-title h2{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .keep-title p{
+        font-size: 15px;
+    }
+
+    .keep-image{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .keep-image img{
+        width: 100%;
+    }
+}

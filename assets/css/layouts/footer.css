@@ -21,3 +21,11 @@ footer{
 .social-media a > i{
     font-size: 20px;
 }
+
+@media screen and (max-width: 1170px){
+    #footer-itens{
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

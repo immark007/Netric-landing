@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $('#mobile_btn').on('click', function(){
         $('#mobile_menu').toggleClass('active');
-        $('#mobile_btn').find(i).toggleClass('fa-x');
+        $('#mobile_btn').find('i').toggleClass('fa-x');
     });
 
     const sections = $('section');
@@ -35,31 +35,43 @@ $(document).ready(function(){
 
     ScrollReveal().reveal('.home_title',{
         origin: 'left',
-        duration: 1500,
+        duration: 2000,
         distance: '20%'
     });
 
     ScrollReveal().reveal('.conteudo h2', {
         origin: 'left',
-        duration: 1500,
-        distance: '30%'
+        duration: 2000,
+        distance: '20%'
     });
 
     ScrollReveal().reveal('.conteudo span', {
         origin: 'right',
-        duration: 1500,
-        distance: '30%'
+        duration: 2000,
+        distance: '20%'
     });
 
     ScrollReveal().reveal('.construct_title',{
         origin: 'left',
-        duration: 1500,
-        distance: '30%'
+        duration: 2000,
+        distance: '20%'
     });
 
     ScrollReveal().reveal('.keep-title',{
         origin: 'right',
-        duration: 1500,
-        distance: '30%'
+        duration: 2000,
+        distance: '20%'
+    });
+
+    ScrollReveal().reveal('.construct_image',{
+        origin: 'right',
+        duration: 2000,
+        distance: '20%'
+    });
+
+    ScrollReveal().reveal('.keep-image',{
+        origin: 'left',
+        duration: 2000,
+        distance: '20%'
     });
 });

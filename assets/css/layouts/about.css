@@ -29,11 +29,10 @@
     width: 50%;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
     #about{
         border: none;
         height: 600px;
-        position: relative;
     }
     .conteudo h2{
         width: 100%;

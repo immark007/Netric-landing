@@ -36,14 +36,14 @@
     border-radius: 20px;
 }
 
-@media screen and (max-width: 1170px){
+@media screen and (max-width: 768px){
     #construct{
         display: flex;
         flex-direction: column;
         border: none;
         align-items: center;
         padding: 0 20px;
-        height: 60vh;
+        height: 450px;
     }
 
     .construct_image{

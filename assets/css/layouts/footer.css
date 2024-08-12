@@ -22,7 +22,7 @@ footer{
     font-size: 20px;
 }
 
-@media screen and (max-width: 1170px){
+@media screen and (max-width: 768px){
     #footer-itens{
         align-items: center;
         flex-direction: column;

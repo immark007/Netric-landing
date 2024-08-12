@@ -33,12 +33,13 @@
     border-radius: 20px;
 }
 
-@media screen and (max-width: 1170px){
+@media screen and (max-width: 768px){
     #keep{
         display: flex;
         flex-direction: column;
         padding: 0 20px;
-        height: 70vh;
+        height: 450px;
+        margin-bottom: 40px;
     }
 
     .keep-title{

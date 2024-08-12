@@ -64,8 +64,8 @@
         width: 100%;
         flex-direction: column;
         align-items: center;
-        height: 350px;
-        padding-top: 50px;
+        height: 450px;
+        padding: 50px 20px;
     }
     .shape{
         display: none;
@@ -96,9 +96,10 @@
         justify-content: center;
         display: flex;
         order: 1;
+        width: 100%;
     }
 
     .home_image img{
-        width: 250px;
+        width: 100%;
     }
 }

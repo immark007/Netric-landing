@@ -9,3 +9,8 @@ html, body{
     font-family: "Poppins", sans-serif;
     background-color: var(--color-primary-1);
 }
+
+
+html.sr .load-hidden {
+    visibility: hidden;
+}

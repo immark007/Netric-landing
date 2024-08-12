@@ -35,43 +35,43 @@ $(document).ready(function(){
 
     ScrollReveal().reveal('.home_title',{
         origin: 'left',
-        duration: 2000,
-        distance: '20%'
+        duration: 1000,
+        distance: '10%'
     });
 
     ScrollReveal().reveal('.conteudo h2', {
         origin: 'left',
-        duration: 2000,
-        distance: '20%'
+        duration: 1000,
+        distance: '10%'
     });
 
     ScrollReveal().reveal('.conteudo span', {
         origin: 'right',
-        duration: 2000,
-        distance: '20%'
+        duration: 1000,
+        distance: '10%'
     });
 
     ScrollReveal().reveal('.construct_title',{
         origin: 'left',
-        duration: 2000,
-        distance: '20%'
+        duration: 1000,
+        distance: '10%'
     });
 
     ScrollReveal().reveal('.keep-title',{
         origin: 'right',
-        duration: 2000,
-        distance: '20%'
+        duration: 1000,
+        distance: '10%'
     });
 
     ScrollReveal().reveal('.construct_image',{
         origin: 'right',
-        duration: 2000,
-        distance: '20%'
+        duration: 1000,
+        distance: '10%'
     });
 
     ScrollReveal().reveal('.keep-image',{
         origin: 'left',
-        duration: 2000,
-        distance: '20%'
+        duration: 1000,
+        distance: '10%'
     });
 });

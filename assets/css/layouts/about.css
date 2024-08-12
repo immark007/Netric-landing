@@ -33,6 +33,7 @@
     #about{
         border: none;
         height: 600px;
+        padding: 0 20px;
     }
     .conteudo h2{
         width: 100%;
@@ -41,5 +42,6 @@
 
     .conteudo span{
         width: 100%;
+        font-size: 18px;
     }
 }
